@@ -1,0 +1,224 @@
+.body{
+  background: #f9f9f9;
+}
+.roommate-box{
+  height: 100vh;
+  width: 100%;
+  background:#f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding:0px 20px; */
+}
+.roommate{
+  max-width: 1440px;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roommate-right{
+  width: 50%;
+}
+.roommate-right-img{
+  width: 100%;
+  min-width: 250px;
+}
+.roommate-left{
+  padding-left: 20px;
+}
+.roommate-left .roommate-title-1{
+  color: #0f7ca5;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.roommate-left .roommate-title-2{
+  color: #0f7ca5;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+}
+.roommate-left .roommate-title-3{
+  font-family: "Montserrat";
+  font-style: normal;
+  color: black;
+
+  font-size: 18px;
+}
+
+
+.diversity-box{
+  height: 100vh;
+  width: 100%;
+  background:#322A40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding:0px 20px; */
+}
+.diversity{
+  height: 95%;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.diversity-left{
+  width: 50%;padding-right: 20px;
+  padding-right: 20px;
+ 
+  /* box-shadow: #764080; */
+}
+.diversity-img{
+  width: 100%;
+  padding-left: 20px;
+  
+  min-width: 250px;
+  /* box-shadow: 0px 0px 5px 12px #764080;; */
+}
+
+.diversity-title-1{
+  color: #e5c2a5;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.diversity-title-2{
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+}
+.diversity-title-3{
+  color: #e5c2a5;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+}
+.room-box{
+  background: white;
+  width: 100%;
+  /* padding:0px 20px; */
+}
+.room{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  max-width: 1440px;
+  /* width: 100%; */
+  /* max-width: 900px; */
+  
+  /* margin: auto; */
+}
+.room-img{
+  width: 100%;
+}
+
+.room-title-1{
+  display: flex;
+  
+  align-items: center;
+}
+.font-size-1{
+  color: #9A75BF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.font-size-2{
+  color: #764080;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 900;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.font-size-3{
+  color: #9A75BF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.room-title-2{
+  margin-top: 20px;
+}
+.room-title-3{
+  color: #764080;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: -10px;
+ 
+}
+.room-title-1-1{
+  color: #764080;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top:-15px;
+}
+.room-title-4{
+  margin-top: 10px;
+  color: #9A75BF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.room-right{
+  width: 50%;
+}
+
+.pagenation{
+  margin:auto;
+  height: 80px;
+}
+.pagenation-icon{
+  width: 25px;
+}
+@media screen and (max-width:768px){
+  .roommate-right , .diversity-left , .room-right{
+    width: 80%;
+  }
+}
+@media screen and (max-width:650px){
+  .roommate ,.diversity , .room{
+    flex-direction: column;
+    
+  }
+  .room-img{
+    z-index: 0;
+  }
+  .roommate-right-img{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:375px){
+  .roommate-left .roommate-title-2,.diversity-title-2,.font-size-2,.room-title-3,.room-title-1-1{
+    font-size: 40px;
+  }
+  .roommate{
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width:550px){
+  .diversity-right{
+    padding-left: 20px;
+  }
+}

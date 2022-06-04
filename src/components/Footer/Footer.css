@@ -1,0 +1,37 @@
+.footer-main{
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background: #a476c3;
+  z-index: 100;
+}
+.footer-title{
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-bottom{
+  
+}
+.footer-title1{
+  padding:20px 0px;
+  background-color: #543673;
+  font-family: "Montserrat";
+  font-style: normal;
+  text-align: center;
+  color: #6e6a6a;
+  font-size: 20px;
+}
+@media screen and (max-width:650px){
+  .footer-title{
+    font-size: 30px;
+  }
+}
